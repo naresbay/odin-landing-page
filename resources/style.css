@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.navigation-container,
+.main-hero,
+.footer {
+  background-color: #1f2937;
+}
+
+nav,
+main {
+  color: #f9faf8;
+}
+
+/* NAVIGATION STYLE */
+.navigation-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.page-logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navigation-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* HERO STYLE */
+.main-hero {
+  display: flex;
+  padding: 48px;
+}
+
+.main-image {
+  background-color: grey;
+  padding: 30px 40px;
+}
